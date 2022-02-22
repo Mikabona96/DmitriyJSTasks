@@ -1,6 +1,6 @@
 // Core
 import React, { FC } from 'react';
-import { Link, Outlet, useNavigate } from 'react-router-dom';
+import { Outlet, useNavigate } from 'react-router-dom';
 import { Accordion } from './styles';
 
 // Bus
@@ -286,15 +286,15 @@ const Lesson7 = () => {
                     <div className = 'Accordion-text'>
                         <S.Links>
                             <div onClick = { () => {
-                                navigate('/lesson/1');
+                                navigate('/lesson7/1');
                             } }>Task #1
                             </div>
                             <div onClick = { () => {
-                                navigate('/lesson/2');
+                                navigate('/lesson7/2');
                             } }>Task #2
                             </div>
                             <div onClick = { () => {
-                                navigate('/lesson/3');
+                                navigate('/lesson7/3');
                             } }>Task #3
                             </div>
                         </S.Links>
