@@ -10,15 +10,15 @@ export const Task: FC = () => {
     const location = useLocation();
 
     switch (location.pathname) {
-        case '/js/lesson6/1':
+        case '/lesson6/1':
             return <Task1 />;
-        case '/js/lesson6/2':
+        case '/lesson6/2':
             return <Task2 />;
-        case '/js/lesson6/3':
+        case '/lesson6/3':
             return <Task3 />;
-        case '/js/lesson6/4':
+        case '/lesson6/4':
             return <Task4 />;
-        case '/js/lesson6/5':
+        case '/lesson6/5':
             return <Task5 />;
         default:
             return <div>Nothing....</div>;

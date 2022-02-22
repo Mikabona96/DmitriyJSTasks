@@ -6,7 +6,7 @@ export const Task: FC = () => {
     const location = useLocation();
 
     switch (location.pathname) {
-        case '/js/lesson17/1':
+        case '/lesson17/1':
             return <Task1 />;
         default:
             return <div>Nothing....</div>;
